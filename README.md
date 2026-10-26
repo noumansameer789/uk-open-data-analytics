@@ -1,6 +1,8 @@
 # Reproducible analytics on UK open government data
 
-Production-style data-quality and reporting components from three linked
+> **Provenance and scope.** MTHM503 MSc coursework, June 2026. This portfolio reconstruction contains selected data-quality and statistical diagnostics with tests. The assessed Quarto analyses, PostgreSQL environment and full source extracts are not reproduced here. Headline results and the original 25-test count describe the coursework, not this smaller repository.
+
+Selected data-quality and reporting components from three linked
 analyses of Energy Performance Certificate and STATS19 data.
 
 ## Reported result from the original experiment
@@ -25,3 +27,8 @@ python -m unittest discover -s tests -v
 Private PostgreSQL credentials, assessment material and server extracts are not
 published. `file_sha256` supports a reproducible manifest when public extracts
 are added.
+
+
+## Licence
+
+Original material is available for portfolio evaluation under the [evaluation-only licence](LICENSE). Third-party data, libraries and original assessment materials retain their own terms.
